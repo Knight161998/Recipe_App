@@ -1,12 +1,10 @@
 import React from 'react';
-import './index.css';
 
-function recipe({ recipe }) {
+export default function recipe(recipes) {
 	return (
 		<div className="recipeTile">
-			<img src={recipe['recipe']['image']} />
-			<p>{recipe['recipe']['name']}</p>
+			<img src={recipes['recipes']['image']} />
+			<p>{recipes['recipes']['label']}</p>
 		</div>
 	);
 }
-export default recipe;

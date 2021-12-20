@@ -2,7 +2,7 @@
 /* Here we start the css of react components */
 
 
-
+/* 
 body {
 	background: #f1f5f8;
 	color: #222;
@@ -38,8 +38,15 @@ body {
 
 .recipeList{
   width: 900px;
-}
+} */
 
 /* .recipe{
   width: 300px;
 } */
+
+.recipeList{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: flex-end;
+}
